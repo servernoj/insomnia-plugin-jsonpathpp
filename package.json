@@ -1,0 +1,36 @@
+{
+  "name": "insomnia-plugin-jsonpathpp",
+  "version": "1.0.0",
+  "description": "Enhance built-in JSONPath plugin",
+  "main": "index.js",
+  "insomnia": {
+    "name": "JSONPath++",
+    "description": "Enhance built-in JSONPath plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/servernoj/insomnia-plugin-jsonpathpp.git"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "JSONPath",
+    "template tags"
+  ],
+  "author": "servernoj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/servernoj/insomnia-plugin-jsonpathpp/issues"
+  },
+  "homepage": "https://github.com/servernoj/insomnia-plugin-jsonpathpp",
+  "dependencies": {
+    "jsonpath": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}

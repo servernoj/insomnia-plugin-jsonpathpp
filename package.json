@@ -18,7 +18,7 @@
     "template tags"
   ],
   "author": "servernoj",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/servernoj/insomnia-plugin-jsonpathpp/issues"
   },

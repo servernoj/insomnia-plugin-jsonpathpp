@@ -5,7 +5,11 @@
   "main": "index.js",
   "insomnia": {
     "name": "JSONPath++",
-    "description": "Enhance built-in JSONPath plugin"
+    "description": "Enhance built-in JSONPath plugin",
+    "publisher": {
+      "name": "Simon Baev",
+      "icon": "https://www.gravatar.com/avatar/3c62b10e7c07fa46a2cf15a15ad4a5cc"
+    }
   },
   "repository": {
     "type": "git",

@@ -4,25 +4,25 @@
 
 This plugin enhances functionality of the built-in JSONPath plugin by adding ability to pass **JSON object** on top of existing functionality that allows string input only. 
 
-The plugin treats all visible environment variables as branches of a tree that in turn represent sub-trees on their own. For example, consider the following list of environment variables defined on the global scope:
+The plugin treats all visible environment variables as branches of a tree that in turn represent sub-trees on their owns. For example, consider the following list of environment variables defined on the global scope:
 ``` json
 "users": {
   "dev": {
     "user_a:": {
       "email": "user_a@gmail.com",
-      "passowrd": "abc123"
+      "password": "abc123"
     },
     "user_b:": {
       "email": "user_b@gmail.com",
-      "passowrd": "123abc"
+      "password": "123abc"
     }
   },
   "prod": {
     "user_c:": {
       "email": "user_c@gmail.com",
-      "passowrd": "xyz321"
+      "password": "xyz321"
     },
-    "user_d:": "{ \"email\": \"user_d@gmail.com\", \"passowrd\": \"321xyz\" }"
+    "user_d:": "{ \"email\": \"user_d@gmail.com\", \"password\": \"321xyz\" }"
   }
 }
 ```
@@ -50,7 +50,7 @@ Please note that `users.prod.user_d` in global scope is defined as a parseable J
 ``` json
 {
   "email": "user_d@gmail.com", 
-  "passowrd": "321xyz"
+  "password": "321xyz"
 }
 ```
 

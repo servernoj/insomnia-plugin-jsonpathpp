@@ -38,7 +38,7 @@ and two sub-environments `dev` and `prod` with the following lists of defined en
 and
 ``` json
 {
-"env": "prod",
+  "env": "prod",
   "user": "{% jsonpathpp 'users.prod.user_c' %}",
   "email": "{% jsonpathpp 'user.email' %}",
   "password": "{% jsonpathpp 'user.password' %}" 
@@ -69,4 +69,4 @@ This plugin is nothing more but a wrapper to existing functionality. Its ultimat
 
 ## Credit
 
-Under the hood this plugin uses [JSONPath NPM module](https://www.npmjs.com/package/jsonpath) for processing of provided JSONPath. As fun exercise reward yourself by playing with [**The Store**](https://github.com/dchester/jsonpath#jsonpath-syntax) example that you can copy over into Insomnia environment from module README file. 
+Under the hood this plugin uses [JSONPath NPM module](https://www.npmjs.com/package/jsonpath) for processing of provided JSONPath. As a fun exercise reward yourself by playing with [**The Store**](https://github.com/dchester/jsonpath#jsonpath-syntax) example that you can copy over into Insomnia environment from module README file. 
